@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3eb7fba0-b8b8-41d3-ab69-fed45af11531" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Behaviour/PlayerInputRouter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Behaviour/PlayerInputRouter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Behaviour/TargetDetector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Behaviour/TargetDetector.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Behaviour/TimeController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Behaviour/TimeController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Intefaces/IDamagable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Intefaces/IDamagable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Intefaces/IEnemyTarget.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Intefaces/IEnemyTarget.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/EnemyTurret.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/EnemyTurret.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/Player.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/Player.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/Weapon.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/Weapon.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Signals.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Signals/PlayerSignals.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Signals/PlayerSignals.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Types/Entities.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Types/Entities/BulletEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Types/Entities/BulletEntity.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Types/Entities/EnemyTurretEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Types/Entities/EnemyTurretEntity.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Types/Entities/PlayerEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Types/Entities/PlayerEntity.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Types/PlayerCameraTarget.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Types/PlayerCameraTarget.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Types/WeaponHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Core/Types/WeaponHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Data/Entity Data/BulletData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Data/Entity Data/BulletData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Data/Entity Data/EnemyTurretEntityData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Data/Entity Data/EnemyTurretEntityData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Data/Entity Data/EntityData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Data/Entity Data/EntityData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Data/Entity Data/PlayerEntityData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Data/Entity Data/PlayerEntityData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Data/WeaponData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Data/WeaponData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/Baase.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/EnemyTurretFSM.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/EnemyTurretFSM/BaseEnemyTurretState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/EnemyTurretFSM/BaseEnemyTurretState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/EnemyTurretFSM/EnemyTurretIdleState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/EnemyTurretFSM/EnemyTurretIdleState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/EnemyTurretFSM/EnemyTurretShootState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/FSM/EnemyTurretFSM/EnemyTurretShootState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Installers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Installers/BootStrapInstaller.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Installers/BootStrapInstaller.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Installers/CoreInstaller.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Installers/CoreInstaller.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Misc/FinishZone.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Misc/FinishZone.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Behaviour/EnemyTurretGetService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Behaviour/EnemyTurretGetService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Behaviour/GameOverHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Behaviour/GameOverHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Behaviour/GamePauseHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Behaviour/GamePauseHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Behaviour/GameStateController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Behaviour/GameStateController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Behaviour/InputService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Behaviour/InputService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Behaviour/LevelHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Behaviour/LevelHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Behaviour/PlayerCameraAssigner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Behaviour/PlayerCameraAssigner.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Behaviour/PlayerGetService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Behaviour/PlayerGetService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/BootStrap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/BootStrap.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Factories.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Factories/BulletEntityFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Factories/BulletEntityFactory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Factories/EnemyEntityFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Factories/EnemyEntityFactory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Factories/EntityFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Factories/EntityFactory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Factories/PlayerEntityFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Factories/PlayerEntityFactory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Intefaces/IEnemyTurretGetService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Intefaces/IEnemyTurretGetService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Intefaces/IGameStateController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Intefaces/IGameStateController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Intefaces/IInputService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Intefaces/IInputService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Intefaces/IPlayerGetService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Intefaces/IPlayerGetService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Intefaces/ISceneHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Intefaces/ISceneHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Intefaces/ITimeController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Intefaces/ITimeController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/LevelInitializer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/LevelInitializer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Signals.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Signals/GameStateSignal.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Signals/GameStateSignal.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/UI/Behaviour/MenuSwitcher.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/UI/Behaviour/MenuSwitcher.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/UI/Menus/BaseMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/UI/Menus/BaseMenu.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/UI/Menus/CoreMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/UI/Menus/CoreMenu.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/UI/Menus/LoseMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/UI/Menus/LoseMenu.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/UI/Menus/MainMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/UI/Menus/MainMenu.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/UI/Menus/PauseMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/UI/Menus/PauseMenu.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/UI/Menus/WinMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/UI/Menus/WinMenu.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/UI/Signals.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/UI/Signals/MenuSignals.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/UI/Signals/MenuSignals.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/View.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/View/Particles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/View/Particles/HitParticleHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/View/Particles/HitParticleHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/View/Particles/HitParticleInvoker.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/View/Particles/HitParticleInvoker.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/View/PlayerView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/View/PlayerView.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B24CC7F-A979-4ED8-AB04-312C53E6DEDD/13/71b96a8e/SceneManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7114F06D-16F1-436A-B84F-F423F37F3652/a3/f35eabc3/Action`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/87F07016-7A76-4310-8CC6-1EF0492F958C/6a/ac8f775a/Physics.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Systems/Behaviour/SceneHandler.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Signals/PlayerSignals.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/FSM/EnemyTurretFSM/BaseEnemyTurretState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Data/WeaponData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Behaviour/TargetDetectSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Factories/BulletEntityFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Factories/EntityFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Factories/EnemyEntityFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Factories/PlayerEntityFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Types/WeaponHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Behaviour/HitParticleHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Behaviour/Particles/HitParticleInvoker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Types/Entities/BulletEntity.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Behaviour/Particles/HitParticleHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/EnemyTurret.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Data/Entity Data/EnemyTurretEntityData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Behaviour/TargetDetector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/UI/Menus/CoreMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/View/PlayerView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Behaviour/EnemyTurretGetService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Behaviour/PlayerGetService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Systems/LevelInitializer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Behaviour/GameOverHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Misc/FinishZone.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Behaviour/LevelHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Misc/CursorHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Behaviour/PlayerCameraAssigner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Behaviour/CursorHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/UI/Menus/LoseMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/UI/Menus/WinMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Intefaces/IDamagable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Types/Entities/EnemyTurretEntity.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Types/Entities/PlayerEntity.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/FSM/EnemyTurretFSM/EnemyTurretShootState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Model/Weapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/FSM/EnemyTurretFSM/EnemyTurretIdleState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/UI/Menus/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Behaviour/BulletTimeController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/UI/Menus/BaseMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Intefaces/IGameStateController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Behaviour/GameStateController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/UI/Behaviour/MenuSwitcher.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/UI/Menus/PauseMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Intefaces/ITimeController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Behaviour/TimeController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Core/Behaviour/PlayerInputRouter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Intefaces/IInputService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Installers/BootStrapInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Installers/CoreInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Behaviour/GamePauseHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Systems/Behaviour/InputService.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2gGxxyfJ0txlfdb5WtTqY3YaI4l" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="794" y="217" key="RiderGenerateDialog" timestamp="1715704315624">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="794" y="217" key="RiderGenerateDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1715704315624" />
+    <state x="461" y="161" key="SettingsEditor" timestamp="1715684344847">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="461" y="161" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1715684344847" />
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1715704394918">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1715704394918" />
+  </component>
+</project>

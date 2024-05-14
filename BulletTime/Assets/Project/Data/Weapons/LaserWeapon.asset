@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b6a7b84183c4b579890df382774f1a4, type: 3}
+  m_Name: LaserWeapon
+  m_EditorClassIdentifier: 
+  <BulletData>k__BackingField: {fileID: 11400000, guid: f5b1cfe972176ad4c84ced3350dfec1b,
+    type: 2}
+  <Damage>k__BackingField: 3
+  <MaxAmmo>k__BackingField: 1
+  <Spread>k__BackingField:
+    X: {x: 0, y: 0}
+    Y: {x: 0, y: 0}
+  <RateOfFire>k__BackingField: 1
+  <ReloadTime>k__BackingField: 1
